@@ -1,16 +1,19 @@
-body{
+body {
     overflow: hidden;
+    background-image: url(image1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.buttons{
-    display:flex ;
+.buttons {
+    display: flex;
     width: 99.5%;
     justify-content: space-between;
     position: absolute;
     top: 500px;
 }
 
-.btns{
+.btns {
     font-size: 70px;
     border: 0;
     background-color: gray;
@@ -20,15 +23,13 @@ body{
     height: fit-content;
 }
 
-.imagemain{
+.imagemain {
     width: 100%;
     display: none;
 }
 
-.image{
+.image {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
